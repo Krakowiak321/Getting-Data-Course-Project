@@ -1,6 +1,6 @@
 # Code Book
 
-For convenience, the contents of 'features_info.txt' and a portion of the UCI HAR Dataset README file are given here. These files describe the variables in 'tidy.txt' and their initial processing.
+The original data set comes from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones. For convenience, the contents of 'features_info.txt' and a portion of the UCI HAR Dataset README file are given here. These files describe the variables in 'tidy.txt' and their initial processing.
 
 ## features_info.txt:
 
