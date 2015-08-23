@@ -19,12 +19,14 @@ The data comes in multiple files:
 
 ## The analysis script
 
+The UCI HAR Dataset must be extracted and available in the working directory. The 'plyr' package must be installed. Then running 'run_analysis.R' will 
 
+1. merge the test and training datasets together
+2. discard measurements of features other than 'mean' and 'standard deviation' measurements
+3. create columns to include subject IDs and descriptive activity names
+4. label the columns of this data frame appropriately and use it to
+5. Create a second tidy set called 'tidy.txt' containing the average values of the selected variables for each subject and activity.
 
 ## The code book
 
-This script (run_analysis.R) takes the Samsung data and produces a tidy data set containing the average values of each variable (restricted to the mean and standard deviation for each measurement per step 2 of the instructions) for each activity and each subject. This is done in two steps: 
-
-1. Create a tidy dataset combining the information from the various given files.
-2. Present the desired average values in a second tidy data set.
-
+The code book provide a description of the variables in 'tidy.txt' and the steps used to clean the data. 
