@@ -61,4 +61,4 @@ names(data)[2] <- "Activity"
 
 tidy <- ddply(data, c("Activity", "`Subject ID`"), 
               numcolwise(mean))
-print(tidy)
+write.table(tidy, file = "tidy.txt", row.names = FALSE)
