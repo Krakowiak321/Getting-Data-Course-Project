@@ -17,7 +17,6 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ
-
 tGravityAcc-XYZ
 
 tBodyAccJerk-XYZ
@@ -52,7 +51,7 @@ fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
+mean(): Mean value 
 std(): Standard deviation
 mad(): Median absolute deviation 
 max(): Largest value in array
